@@ -4,7 +4,7 @@ This is the Segment Anything Model (SAM) version for our [Segment Object System 
 
 ## Installation
 
-Please follow the general installation instructions of SAM as described in [the original README.md](https://github.com/chwilms/SOS_segment-anything/blob/main/README_SAM.md#installation). Addtionally, install the following packages to your Python environment:
+Please follow the general installation instructions of SAM as described in [the original README.md](https://github.com/chwilms/SOS_segment-anything/blob/main/README_SAM.md#installation). Additionally, install the following packages to your Python environment:
 
 ```
 pip install scikit-image tqdm
