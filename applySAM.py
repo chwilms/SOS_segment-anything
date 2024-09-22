@@ -95,13 +95,13 @@ def run_sam(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='')
-    parser.add_argument('image_dir', type=str, required=True, 
+    parser.add_argument('image_dir', type=str,
                         help="Path to image directory, e.g., COCO's train2017 folder.")
-    parser.add_argument('sam_checkpoint', type=str, required=True, 
+    parser.add_argument('sam_checkpoint', type=str,
                         help='Path to SAM checkpoint based in ViT-H, like sam_vit_h_4b8939.pth')
-    parser.add_argument('prompts', type=str, required=True,
+    parser.add_argument('prompts', type=str,
                         help='Path to json prompt file generated with one of the given scripts in the main git of SOS.')
-    parser.add_argument('output_segments', type=str, required=True,
+    parser.add_argument('output_segments', type=str,
                         help='Path to outfile (.json) for generated SAM segments.')
 
     args = parser.parse_args()
